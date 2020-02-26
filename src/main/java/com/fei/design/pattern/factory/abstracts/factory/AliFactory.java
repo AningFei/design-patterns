@@ -5,12 +5,12 @@ import com.fei.design.pattern.factory.abstracts.dto.AliPayment;
 import com.fei.design.pattern.factory.abstracts.dto.Game;
 import com.fei.design.pattern.factory.abstracts.dto.Payment;
 
-public class AliFactory implements CompanyFactory {
+public class AliFactory extends CompanyFactory {
 
 
-    @Override
-    public Payment createPay() {
-        return new AliPayment();
+        @Override
+        public Payment createPay() {
+            return new AliPayment();
     }
 
 

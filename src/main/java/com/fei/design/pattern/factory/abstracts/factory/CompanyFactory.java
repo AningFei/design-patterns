@@ -3,10 +3,12 @@ package com.fei.design.pattern.factory.abstracts.factory;
 import com.fei.design.pattern.factory.abstracts.dto.Game;
 import com.fei.design.pattern.factory.abstracts.dto.Payment;
 
-public interface CompanyFactory {
+public abstract class CompanyFactory {
 
-    Payment createPay();
 
-    Game createGame();
+
+    abstract Payment createPay();
+
+    abstract Game createGame();
 
 }
