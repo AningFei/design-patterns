@@ -1,4 +1,4 @@
-package com.fei.design.pattern.factory.abstracts.dto;
+package com.fei.design.pattern.factory.dto;
 
 public class AliGame implements Game {
     @Override
