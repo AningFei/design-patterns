@@ -9,8 +9,8 @@ public class AbsFactoryTest {
 
         CompanyFactory companyFactory = new TxFactory();
 
-        companyFactory.createGame().play();
 
+        companyFactory.createGame().play();
 
     }
 }

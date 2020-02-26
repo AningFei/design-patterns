@@ -1,4 +1,6 @@
 # design-patterns
+参考资料
+http://c.biancheng.net/design_pattern/
   一.七大设计原则
   1.开闭原则
   2.单一职责

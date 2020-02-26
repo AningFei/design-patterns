@@ -5,7 +5,7 @@ import com.fei.design.pattern.factory.abstracts.dto.Payment;
 import com.fei.design.pattern.factory.abstracts.dto.TxGame;
 import com.fei.design.pattern.factory.abstracts.dto.TxPayment;
 
-public class TxFactory extends CompanyFactory {
+public class TxFactory implements CompanyFactory {
 
 
     @Override
