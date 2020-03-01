@@ -5,6 +5,9 @@ import com.alibaba.fastjson.JSONObject;
 
 import java.util.List;
 
+/**
+ * y原型模式 copy
+ */
 public class JsonPrototype {
     private String name;
 
