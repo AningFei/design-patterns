@@ -1,1 +1,0 @@
-package com.fei.design.pattern.singleton;
