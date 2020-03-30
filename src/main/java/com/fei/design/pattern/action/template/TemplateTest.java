@@ -10,8 +10,8 @@ public class TemplateTest {
     public static void main(String[] args) {
 
         BaseTemplate baseTemplate=new Caculate1();
-        baseTemplate.getPrice();
+        baseTemplate.getPrice1();
         baseTemplate=new Caculate2();
-        baseTemplate.getPrice();
+        baseTemplate.getPrice1();
     }
 }

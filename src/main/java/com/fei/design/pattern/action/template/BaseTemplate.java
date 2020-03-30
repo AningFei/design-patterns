@@ -7,7 +7,7 @@ package com.fei.design.pattern.action.template;
  */
 public abstract  class BaseTemplate {
 
-    public  void getPrice(){
+    public  void getPrice1(){
 
         //1. 获取商品
         System.out.println("h获取商品");
